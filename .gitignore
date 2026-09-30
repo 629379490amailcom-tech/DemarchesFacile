@@ -1,0 +1,22 @@
+# Fichiers générés par Gradle / Android Studio — ne jamais committer
+*.iml
+.gradle/
+.idea/
+.kotlin/
+/local.properties
+/.cxx/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Dossiers de build
+build/
+app/build/
+
+# Fichiers spécifiques à un poste de travail
+.DS_Store
+Thumbs.db
+
+# APK — à publier plutôt dans les "Releases" GitHub, pas dans le code source
+*.apk
+*.aab
