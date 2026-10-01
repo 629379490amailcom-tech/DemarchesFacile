@@ -100,6 +100,11 @@ fun SuiviScreen(
                     modifier = Modifier.padding(vertical = 16.dp)
                 )
             } else {
+                Text(
+                    text = "Coche les pièces que tu as déjà réunies",
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.padding(vertical = 8.dp)
+                )
                 LazyColumn(modifier = Modifier.weight(1f)) {
                     items(uiState.pieces, key = { it.id }) { piece ->
                         val cochee = uiState.estCochee(piece.id)
